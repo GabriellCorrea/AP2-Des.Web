@@ -9,6 +9,12 @@ body {
     align-items: center;
 }
 
+h2 {
+    align-items: center;
+    font-size: 45px;
+    margin-top: 20%;
+}
+
 #atleta h1 {
     font-size: 36px;
     text-align: center;

@@ -61,10 +61,17 @@ if (sessionStorage.getItem("logado")) {
             if (retorno && retorno.nome) {
                 montaDetalhes(retorno);  
             } else {
-                body.innerHTML = "<h1>Atleta não encontrado(a)!!!</h1>";
+                body.innerHTML = `
+                    <h2>Atleta não encontrado(a)!!!</h2>
+                    <a href="index.html">Voltar</a>
+                `;
             }
         }
     )
 } else {
-    body.innerHTML = "<h1>Você precisa estar logado.</h1>";
+    body.innerHTML = `
+        <h2>Você precisa estar logado.</h2>
+        <a href="index.html">Voltar</a>
+    `;
 }
+
