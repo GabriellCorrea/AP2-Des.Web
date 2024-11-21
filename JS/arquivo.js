@@ -1,4 +1,4 @@
-import { hex_sha256 } from './sha256.js';
+import { hex_sha256 } from '../sha256.js';
 
 const body = document.body;
 
